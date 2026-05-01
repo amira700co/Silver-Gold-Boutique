@@ -9,7 +9,8 @@
 --color-forground:#1A2B4D;
 --color-secondry:#735B15;  /* لون مساعد */
  --color-tertiary:#F7F9FC;  /* لون مساعد */
---color-Neutral:#F7F7F7; /* النصوص / الداكن */
+--color-Neutralm:#45464E; /* النصوص / الداكن */
+--color-skym:#F0F4F8;
 --font-headline:"Noto Serif";
 --font-body:"Manrope";
 --font-lab:"Manrope";
