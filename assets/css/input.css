@@ -41,11 +41,10 @@ font-family:var(--font-body) ;
 
 }
 
-@utility  row{
-
- @apply flex items-center  ; 
-
-
+@layer utilities {
+  .row {
+    @apply flex items-center;
+  }
 }
 
 
@@ -64,3 +63,19 @@ font-family:var(--font-body) ;
 
 }
 
+
+@keyframes moveline {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+@layer utilities {
+  .animate-moven {
+    animation: moveline 12s linear infinite;
+  }
+}

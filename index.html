@@ -20,15 +20,15 @@
 
 <body class="">
     <header class="Header bg-primary  ">
-        <div class=" TopBar container mx-auto  px-5  py-6 flex items-center justify-between bg-amber-500">
+        <div class=" TopBar container mx-auto  px-5  py-6 flex items-center justify-between">
 
             <span class="nameprand  uppercase text-white text-3xl"> AURELIUS</span>
 
 
             <div class="list  text-white ">
-                <ul class=" hidden md:row  gap-5 uppercase ">
-                    <li> <a href="" class="text-xs hover:text-secondry transition-all duration-75  hover:underline underline-offset-10  duration-75"> Home</a></li>
-                    <li> <a href="" class="text-xs hover:text-secondry transition-all duration-75"> Shop Jewelry</a></li>
+                <ul class="hidden md:flex items-center gap-5 uppercase">
+                    <li> <a href="index.html" class="text-xs hover:text-secondry transition-all duration-75  hover:underline underline-offset-10  duration-75"> Home</a></li>
+                    <li> <a href="ShopJewelry.html" class="text-xs hover:text-secondry transition-all duration-75"> Shop Jewelry</a></li>
                     <li> <a href="" class="text-xs hover:text-secondry transition-all duration-75">Gold Calculator</a></li>
                     <li> <a href="" class="text-xs hover:text-secondry transition-all duration-75">Sell Gold</a></li>
                     <li> <a href="" class="text-xs hover:text-secondry transition-all duration-75 ">Contact</a></li>
@@ -53,12 +53,7 @@
 
             </div>
         </div>
-
-    </header>
-
-    <main>
-
-        <section class="LiveGold bg-forground py-2.5">
+             <section class="LiveGold bg-forground py-2.5">
                 <div class="container mx-auto px-5  md:px-10 ">
                     <ul class="  price  list-disc  row flex-wrap  text-xs gap-5   md: justify-center gap-8  text-s  ">
                         <li class="text-secondry text-xs ">24K: $2,342.50</li>
@@ -68,34 +63,44 @@
                         <li class=" text-neutral-400  text-xs">Last price update: 2 minutes ago</li>
                     </ul>
                 </div>
-        </section>
+
+    </header>
+
+    <main>
 
 
-        <section class="hero h-screen relative   bg-[url(../img/goldset.webp)] bg-cover bg-center  ">
+ <section class="hero relative min-h-screen ">
+ <img src="assets/img/goldset.webp" alt="" class="  object-cover w-full h-full  bg-[#0F1E3D] absolute inset-0 z-0  ">
+    <div class="absolute  inset-0   bg-gradient-to-r from-[#0F1E3D]/60 to-[#0F1E3D]/0  z-[1]"></div>
+    <div class="discrip  relative z-10  pt-10   px-[48px]  md:pt-[40px] lg:pt-[100px]  ">
 
-            <div class=" absolute inset-0 bg-gradient-to-r from-primary/80 to-black/30 ">  
-<div class=" pl-12 pt-10      ">
-                <div class=" texts ">
+                <div class=" contentss flex flex-col gap-4       ">
 
 
-                    <span class="text-secondry  text-[12px]  md:leading-[16px]  tracking-[2.4px] text-4xl ">THE ATELIER COLLECTION</span>
+                    <span class="text-secondry  text-[12px]  md:leading-[16px]  tracking-[3.6px] md:text-[14px] ">THE ATELIER COLLECTION</span>
 
-                    <h1 class=" text-white  text-3xl  lg:text-6xl tracking-wide leading-tight pb-4    ">Bespoke
+                    <h1 class=" text-white  text-[20px]  md:text-[60px]  tracking-[2px]">Bespoke
                         Radiance,<br>
                         Sculpted in Gold</h1>
 
-                    <p class=" text-Neutral  text-[10px]   md:text-lg mb-5 leading-[28px] "> Discover the intersection of ancient craftsmanship
+                    <p class=" text-background/50  text-[8px]   md:text-[16px] leading-[28px] "> Discover the intersection of ancient craftsmanship
                         and <br> modern silhouettes. Every piece is a testament to
                         eternal elegance. </p>
- </div>
-                    <div class=""> <a href=""
-                            class="bg-secondry border border-secondry  text-[10px]  p-2   md:p-[16px] text-xl  text-Neutral"> BROWSE JEWELRY </a>
-                   
+</div>
+
+                     <div class=" m-[20px] md:mb-[30px]"> 
+                        <a href=""
+   class="bg-secondry border border-secondry text-white text-[10px] md:text-[12px] px-4 md:px-[40px] py-2 md:py-[16px] tracking-[1px] md:tracking-[1.2px]">
+   BROWSE JEWELRY
+</a>
                
             </div>
-    </div>
-    </div>
-        </section>
+
+    
+ </div>
+
+ </section>
+
 
 
         <section class="Categories p-9 ">
@@ -114,7 +119,7 @@
 
                         <div class="details absolute bottom-4 left-4 text-white ">
 
-                            <h3 class="text-[30px] pb-4 leading-9 ">Gold Collections</h3>
+                            <h3 class="text-[15px] pb-4 leading-2 md:text-[30px] leading-9">Gold Collections</h3>
 
 
 
@@ -133,13 +138,13 @@
 
                     <div class="Diamonds relative ">
 
-                        <img src="assets/img/Diamonds.webp" class=" w-full duration-300 hover:scale-105 transition-all"" alt="">
+                        <img src="assets/img/Diamonds.webp" class=" w-full duration-300 hover:scale-105 transition-all" alt="">
 
 
 
                         <div class="details absolute bottom-4 left-4 text-white px-[40px]">
 
-                            <h3 class="text-[30px] pb-[16px] leading-9 ">Pure Diamonds</h3>
+                            <h3 class="text-[15px] pb-[16px] leading-2 md:text-[30px] leading-9 ">Pure Diamonds</h3>
 
 
 
@@ -166,7 +171,7 @@
 
                         <div class="details absolute bottom-4 left-4 text-white px-[40px]">
 
-                            <h3 class="text-[30px] pb-[16px] leading-9 ">Gold Investment</h3>
+                            <h3 class="text-[15px] pb-[16px] leading-2 md:text-[30px] leading-9 ">Gold Investment</h3>
 
 
 
@@ -561,10 +566,10 @@
 
 </main>
 
-<footer class="bg-primary pb-12 pt-24">
+<footer class="bg-primary  border-b  pb-[48px]">
 
-<div class=" container mx-auto px-[48px] pb-[12.5px]">
-<div class=" grid gap-[20px] md:grid-cols-4 gap-[48px]">
+<div class=" container mx-auto px-[48px]   ">
+<div class=" py-[96px] grid gap-[20px] md:grid-cols-4 gap-[48px]">
 
 <div class="Brandcol pv-[12.5px]">
 <h2 class="text-white text-[20px] leading-[28px] tracking-[2px] capitalize"><a href="">AURELIUS</a></h2>
@@ -605,14 +610,33 @@ STONES.</p>
 
 
 
-<div class="foteremail  ">
+<div class="foteremail pb-[43.63px]">
 <h2 class= " text-secondry  text-[11px] capitalize  lading-[16.5px] tracking-[1.1px]"><a href="">NEWSLETTER</a></h2>
-
-<button class="  text-background/60 pt-[24px] text-[11px] capitalize tracking-[1.1px]" type="submit">EMAIL ADDRESS</button>
+<div class=" pt-[24px] ">
+<div class=" flex  relative border border-background/30  ">
+<button class=" py-3  pt-3.25 pb-3.5 text-background/30  text-[11px] capitalize tracking-[1.1px]" type="submit">
+     <a class="px-[13px] pb-[15px] bt-[14px]" href=""> EMAIL ADDRESS</a>
+    </button>
+    
+<img  class=" absolute bottom-1 right-1 " src="assets/icons/Button (1).svg " alt="">
 </div>
+</div>
+</div>
+</div>
+</div>
+<hr class=" text-background/5 " >
+<div class="container mx-auto px-[48px] ">
+<div class="noteBord  pt-[32px] flex  items-center  gap-10 md:justify-between ">
 
+<p class="  text-background/60 text-[11px] capitalize  leading-[17.9px] tracking-[1.1px]">© 2024 AURELIUS DIGITAL ATELIER. ALL RIGHTS RESERVED.</p>
 
+<div class=" iconsfo flex  flex-wrap gap-[16px] ">
+<img src="assets/icons/earth.svg" alt="">
+<img src="assets/icons/linlicon.svg" alt="">
+  </div>
 
+</div>
+<div>
 
 </footer>
 </body>
