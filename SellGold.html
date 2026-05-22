@@ -15,7 +15,7 @@
 
     <link href="./assets/css/output.css" rel="stylesheet">
 </head>
-<body class="">
+<body class="  bg-[#C5C6CF]/30">
     <header class="Header bg-primary  ">
         <div class=" TopBar container mx-auto  px-5  py-6 flex items-center justify-between">
 
@@ -27,7 +27,7 @@
                     <li> <a href="index.html" class="text-xs hover:text-secondry transition-all duration-75 "> Home</a></li>
                     <li> <a href="ShopJewelry.html" class="text-xs hover:text-secondry transition-all duration-75"> Shop Jewelry</a></li>
                     <li> <a href="" class="text-xs hover:text-secondry transition-all duration-75">Gold Calculator</a></li>
-                    <li> <a href="Sell_Gold.html" class="text-xs hover:text-secondry transition-all   hover:underline underline-offset-10  duration-75">Sell Gold</a></li>
+                    <li> <a href="SellGold.html" class="text-xs hover:text-secondry transition-all   hover:underline underline-offset-10  duration-75">Sell Gold</a></li>
                     <li> <a href="" class="text-xs hover:text-secondry transition-all duration-75 ">Contact</a></li>
                 </ul>
             </div>
@@ -86,7 +86,7 @@
 
      <div class=" flex justify-end"> 
 
-                    <img src="assets/img/Gold Investment.webp" class="w-[256px] h-[341.33px] px-[8px] rotate-3 " alt="">    
+                    <img src="assets/img/Gold Investment.webp" class=" w-[50px] h-[50px]  md:w-[256px] md:h-[341.33px] px-[8px] rotate-3 " alt="">    
             </div>
 
     
@@ -96,10 +96,10 @@
 
 
 
- <section class="ServiceFeatures md:py-[76px]  mx-[48px]">
+ <section class="ServiceFeatures  py-[20px] md:py-[76px]  md:mx-[48px]">
 
-<div class=" container  mx-auto px-[48px]">
-<div class=" cards  text-center grid gap-[4px] md:grid-cols-2 lg:grid-cols-3">
+<div class=" container  mx-auto px-[20px] md:px-[48px]">
+<div class=" cards  text-center grid grid-cols-1 gap-[4px] md:grid-cols-2 lg:grid-cols-3">
 
 
 <div class="card  p-[48px] bg-skym text-left p-[48px]">
@@ -134,14 +134,14 @@ available for high-value collections.</p>
 
 </section>
 
-<div class="foarms text-center">
-<div class="container mx-auto">
-<span class="text-secondry   text-[12px]  md:leading-[16px]  tracking-[3.6px] md:text-[14px] ">START YOUR APPRAISAL</span>
+<section class="foarms  mb-[200px]">
+<div class=" container mx-auto   px-[20px] md:[80px] lg:px-[200px]">
+<div class="mb-[64px] text-center">
+<span class="text-secondry   text-[7px]    md:leading-[16px]  tracking-[3.6px] md:text-[14px] ">START YOUR APPRAISAL</span>
 
-<h1 class=" text-black   pt-[24px] text-[20px]  md:text-[60px]  leading-[60px] tracking-[2px]"> Request a Private Valuation </h1>
+<h1 class=" text-black   pt-[24px] text-[5px]  md:text-[60px]  leading-[60px] tracking-[2px]"> Request a Private Valuation </h1>
 
-
-  <p class=" pt-[7.13px]  pb-[24px] pt-[24px] text-[#45464E] ] text-[8px]   md:text-[18px] leading-[29px] "> Complete the form below to initiate your transaction. Our team will review your <br>
+ <p class=" pt-[7.13px]  pb-[24px] pt-[24px] text-[#45464E] ] text-[8px]   md:text-[18px] leading-[29px] "> Complete the form below to initiate your transaction. Our team will review your <br>
 details and contact you within 2 business hours with a preliminary estimate. </p>
 
 <div class=" row w-fit mx-auto  border-l-4 border-secondry gap-[24px] p-[32px]">
@@ -150,14 +150,116 @@ details and contact you within 2 business hours with a preliminary estimate. </p
 <p class="text-[8px]   md:text-[14px] leading-[20px] capitalize">CONFIDENTIAL & SECURE TRANSACTION PROCESS</p>
 </div>
 
+</div>
+
+<div class=" FormSide  bg-white  p-[30px]  md:p-[48px]   ">
+
+
+<div class="form  mx-auto  grid  grid-cols-1  gap-[20px] md:grid-cols-2  md:gap-[100px]">
+
+<div class="sdide1 ">
+<div class="texetname  mb-[10px] md:mb-[40px]">
+
+<label for="name" class=" text-[#00061A]/60 capitalize text-[#00061A]/60 capitalize text-[10px] tracking-[1px] leading-[15px]"> FULL NAME</label> <br>
+<input type="text" name="" id="" placeholder="Johnathan Doe" class=" py-[13px] placeholder:text-[16px] text-[#45464E]/30 border-b border-[#C5C6CF]/30 ">
+ <hr class="text-[#C5C6CF]/30">
+
+</div>
+
+<div class="tgold mb-[40px]">
+<label 
+for="typeofgold" 
+class="text-[#00061A]/60 capitalize text-[10px] tracking-[1px] leading-[15px]"
+>
+  PHONE NUMBER
+</label>
+<br>
+
+<select 
+id="typeofgold"
+class=" py-[13px]  md-[150px] lg:pr-[190px] "
+>
+  <option value="">24K Bullion / Bars</option>
+  <option value="gold">Gold</option>
+</select>
+ <hr class="text-[#C5C6CF]/30">
+</div>
+
+
+
+
+ 
+
+</div>
+
+<div class="side2">
+<div class="phoneform mb-[40px]">
+<label for="phonenum" class=" text-[#00061A]/60 capitalize text-[10px] tracking-[1px] leading-[15px]"> PHONE NUMBER</label> <br>
+<input type="tel" name="" id="phonenum" placeholder="+1 (555) 000-0000" class=" py-[13px] placeholder:text-[16px] text-[#45464E]/30 ">
+ <hr class="text-[#C5C6CF]/30">
+</div>
+
+<div class="phoneform mb-[40px]">
+<label for="phonenum" class=" text-[#00061A]/60 capitalize text-[10px] tracking-[1px] leading-[15px]"> PHONE NUMBER</label> <br>
+<input type="tel" name="" id="phonenum" placeholder="+1 (555) 000-0000" class=" py-[13px] placeholder:text-[16px] text-[#45464E]/30 ">
+ <hr class="text-[#C5C6CF]/30">
+</div>
+
+</div>
+
+
+<div class="block  md:col-span-2">
+<label for="uplod" class="text-[10px] tracking-[1px] text-[#00061A]/60 uppercase">PRODUCT IMAGES (OPTIONAL)</label>
+
+<input type="file" name="uplod" id="uplos" class="hidden">
+<div class="mt-2 border-2 border-dashed border-[#C5C6CF]/40  py-[18px]  hover:border-secondry transition">
+  <div class=" pb-[24px] pt-[20px] flex flex-col items-center justify-center cursor-pointer">
+    <img src="assets/icons/uplod.svg" alt="" class="  w-4 h-7">
+    <span class=" pt-2 text-[12px] text-[#45464E]  uppercase  leading-[18px] tracking-[1px]">
+      Click to Upload High-Res Images
+    </span>
+  </div>
+
+  
+
+</div>
+
+
+<div class="mt-[40px]">
+<p class="text-[10px] leading-[15px] tracking-[1px] text-[#00061A]/60 uppercase">NOTES / SPECIAL INSTRUCTIONS</p>
+
+<p class=" text-[#45464E]/30  text-[10px] leading-[10px]  md: text-[16px] leading-[24px] tracking-[1px]   pb-[60px] pt-[12px]" >Tell us more about the items (Brand, certificates, condition)...</p>
+ <hr class="text-[#C5C6CF]/30">
+</div>
+
+<div class="mt-[40px]  ">
+
+
+<button type="submit" class=" cursor-pointer w-full py-[20px]  bg-gradient-to-r from-[#735B15] to-[#A68B3D]  text-white  text-[7px] leading-[1px]   text-[16px] leading-[24px] tracking-[1px]  "> SEND REQUEST</button>
+<p class=" text-center  mt-[18px] text-[10px] leading-[15px] tracking-[1px] text-[#00061A]/60 uppercase">OUR TEAM WILL RESPOND WITHIN 120 MINUTES DURING BUSINESS HOURS.</p>
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
 
 </div>
 </div>
+</section>
 </main>
 
 
 
-    <footer class="bg-primary  border-b  pb-[48px]">
+<footer class="bg-primary  border-b  pb-[48px]">
 
 <div class=" container mx-auto px-[48px]   ">
 <div class=" py-[96px] grid gap-[20px] md:grid-cols-4 gap-[48px]">
