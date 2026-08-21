@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme{
 
@@ -15,6 +15,13 @@
 --font-body:"Manrope";
 --font-lab:"Manrope";
 --animate-moveline: moveline 20s linear infinite;
+
+
+
+      /* Dark */
+    --color-bg-dark: #2D4059; /* رمادي غامق */
+    
+    --color-text-dark: #F9FAFB;
 
 }
 

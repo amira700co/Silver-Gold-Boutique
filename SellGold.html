@@ -155,13 +155,13 @@ details and contact you within 2 business hours with a preliminary estimate. </p
 <div class=" FormSide  bg-white  p-[30px]  md:p-[48px]   ">
 
 
-<div class="form  mx-auto  grid  grid-cols-1  gap-[20px] md:grid-cols-2  md:gap-[100px]">
+<form  class="form  mx-auto  grid  grid-cols-1  gap-[20px] md:grid-cols-2  md:gap-[100px]" id="formsell">
 
 <div class="sdide1 ">
 <div class="texetname  mb-[10px] md:mb-[40px]">
 
-<label for="name" class=" text-[#00061A]/60 capitalize text-[#00061A]/60 capitalize text-[10px] tracking-[1px] leading-[15px]"> FULL NAME</label> <br>
-<input type="text" name="" id="" placeholder="Johnathan Doe" class=" py-[13px] placeholder:text-[16px] text-[#45464E]/30 border-b border-[#C5C6CF]/30 ">
+<label for="namesell" class=" text-[#00061A]/60 capitalize text-[#00061A]/60 capitalize text-[10px] tracking-[1px] leading-[15px]"> FULL NAME</label> <br>
+<input type="text" name="" id="namesell" placeholder="Johnathan Doe" class=" py-[13px] placeholder:text-[16px] text-[#45464E]/30 border-b border-[#C5C6CF]/30 ">
  <hr class="text-[#C5C6CF]/30">
 
 </div>
@@ -201,7 +201,7 @@ class=" py-[13px]  md-[150px] lg:pr-[190px] "
 
 <div class="ghrams mb-[40px]">
 <label for="ghrams" class=" text-[#00061A]/60 capitalize text-[10px] tracking-[1px] leading-[15px]"> ESTIMATED WEIGHT (GRAMS)</label> <br>
-<input type="gram" name="" id="ghrams" placeholder="0.0" class=" py-[13px] placeholder:text-[16px] text-[#45464E]/30 ">
+<input type="text" name="" id="ghrams" placeholder="0.0" class=" py-[13px] placeholder:text-[16px] text-[#45464E]/30 ">
  <hr class="text-[#C5C6CF]/30">
 </div>
 
@@ -244,7 +244,7 @@ class=" py-[13px]  md-[150px] lg:pr-[190px] "
 
 </div>
 
-</div>
+</form>
 
 
 
@@ -332,5 +332,12 @@ STONES.</p>
 <div>
 
 </footer>
+
+
+<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+
+<script src="main.js"></script>
+
+
 </body>
 </html>

@@ -275,7 +275,7 @@ ethically sourced 22K gold.</p>
 </div>
 
 
-<div class="commints  ">
+<div class="commints">
 
 <div class="commint1  mb-[64px] ">
 
@@ -317,10 +317,11 @@ decades.</p>
 
 <p class=" mt-[12px] text-[#45464E] text-[16px] leading-[26px] pb-[48px] text-justify"> "The 14.8 grams feels substantial around the neck without being heavy. I love that it's 22K gold, giving it that deep, rich yellow
 color that is so hard to find in western jewelry boutiques."
-
-
 </div>
 
+
+
+  <div class="dynamicComments"></div>
 </div>
 
 <div class=" endpart text-center">
@@ -337,34 +338,33 @@ color that is so hard to find in western jewelry boutiques."
 
 <h2 class=" text-center text-[25px] leading-[20px]  mb-[16px]  md:text-[36px] md:leading-[40px] md:tracking-[0.9px] mb-[60px]">Share Your Experience</h1>
 
-<div class="formexpri">
-
+<form class="formexpri" id="formcomi" name="formcomi" onsubmit="event.preventDefault();">
 <div class=" grid grid-cols-1 md:grid-cols-2 md:gap-[48px]">
 
 
 
 <div class="name mb-[40px]">
-<label for="name" class="  block pb-[12.5px] text-[#1B1C1C]/60 uppercase text-[10px] tracking-[1px] leading-[15px]"> PHONE NUMBER</label> 
+<label for="name" class="  block pb-[12.5px] text-[#1B1C1C]/60 uppercase text-[10px] tracking-[1px] leading-[15px]">your Name</label> 
 <input type="name" name="name" id="name" placeholder="Enter your name" class="    border  py-[18px] px-[24px]  w-full  placeholder:text-[14px] text-[#1B1C1C]/30 bg-white ">
 </div>
 
-<div class="evula mb-[40px]">
+<div  class="evula mb-[40px]" name="evula">
 
  <p class=" text[#1B1C1C]/30  pb-[12.5px] uppercase text-[10px] tracking-[1px] leading-[15px]"> RATING</p>
-    <div class=" row   py-[18px]   w-full  gap-3 ">
-    <img src="assets/icons/stars.svg" alt="">
-    <img src="assets/icons/stars.svg" alt="">
-    <img src="assets/icons/stars.svg" alt="">
-    <img src="assets/icons/stars.svg" alt="">
-    <img src="assets/icons/stars.svg" alt="">
+    <div class="  rating row   py-[18px]   w-full  gap-3 ">
+<span class="star text-gray-300 text-3xl cursor-pointer">★</span>
+  <span class="star text-gray-300 text-3xl cursor-pointer">★</span>
+  <span class="star text-gray-300 text-3xl cursor-pointer">★</span>
+  <span class="star text-gray-300 text-3xl cursor-pointer">★</span>
+  <span class="star text-gray-300 text-3xl cursor-pointer">★</span>
 
   </div>
 </div>
 
 
 <div class="EXPERIENCE mb-[48pxpx] col-span-2">
-<label for="YOUREXPERIENCE" class="  block pb-[12.5px] text-[#1B1C1C]/60 uppercase text-[10px] tracking-[1px] leading-[15px]"> YOUREXPERIENCE</label> 
-<input type="text" name="name" id="name" placeholder="Describe the quality, craftsmanship, and your overall thoughts..." class="  border pb-[118px]  pt-[20px] px-[24px]  w-full  placeholder:text-[14px] text-[#1B1C1C]/30 bg-white ">
+<label for="commintyou" class="  block pb-[12.5px] text-[#1B1C1C]/60 uppercase text-[10px] tracking-[1px] leading-[15px]"> YOUREXPERIENCE</label> 
+<input type="text" name="commintyou" id="commintyou" placeholder="Describe the quality, craftsmanship, and your overall thoughts..." class="  border pb-[118px]  pt-[20px] px-[24px]  w-full  placeholder:text-[14px] text-[#1B1C1C]/30 bg-white ">
 
 </div>
 
@@ -388,8 +388,7 @@ color that is so hard to find in western jewelry boutiques."
 
 
 
-</div>
-    </div>
+</form>   
 
 
 </search>
@@ -590,6 +589,13 @@ STONES.</p>
 </footer>
 
 
+
+
+
+<script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="./main.js"></script>
 </body>
+
 
 </html>

@@ -18,12 +18,25 @@
 
 
 
-<body class="">
+<body class=" bg-bg-ligh  dark:bg-bg-dark dark:text-bg-dark ">
     <header class="Header bg-primary  ">
         <div class=" TopBar container mx-auto  px-5  py-6 flex items-center justify-between">
 
+            <div class=" flex items-center  gap-5">
             <span class="nameprand  uppercase text-white text-3xl"> AURELIUS</span>
-
+<div class="menu-btn relative h-7 w-7 md:hidden  z-10">
+    <img src="assets/icons/list-svgrepo-com.svg" alt="menu">
+<div  class="mnu-list  hidden absolute top-6.5  shadow shadow-gray-700 z-[999]  w-35 bg-primary p-6" >
+            <ul class="text-white space-y-3 ">
+            <li><a href="index.html" class="text-xs hover:text-secondry">Home</a></li>
+            <li><a href="ShopJewelry.html" class="text-xs hover:text-secondry">Shop Jewelry</a></li>
+            <li><a href="" class="text-xs hover:text-secondry">Gold Calculator</a></li>
+            <li><a href="" class="text-xs hover:text-secondry">Sell Gold</a></li>
+            <li><a href="" class="text-xs hover:text-secondry">Contact</a></li>
+        </ul>
+    </div>
+</div>
+</div>
 
             <div class="list  text-white ">
                 <ul class="hidden md:flex items-center gap-5 uppercase">
@@ -37,23 +50,34 @@
 
 
 
+
+
+            
             <div class="icons row  gap-5 ">
                 <a> <img src="assets/icons/icon1.svg" alt="" class=""></a>
                 <a> <img src="assets/icons/icon2.svg" alt=""></a>
                 <a class="  row  relative">
                     <img class="" src="assets/icons/Icon 3.svg" alt="">
-                    <div class=" bg-secondry h-2 w-2 p-2 flex
+                     <div class=" cart-count hidden  bg-secondry h-2 w-2 p-2 flex
      items-center justify-center
      text-sm
       text-center
       bottom-2 left-2
       rounded-full
-  absolute text-white ">2</div>
+  absolute text-white ">0</div>
                 </a>
 
             </div>
+
+
+ <div class=" flex items-center gap-2.5">
+<img  class="  darkmod w-5 h-5" src="assets/icons/icons8-light-off-48.webp" alt="" >
+  </div> 
+
         </div>
-             <section class="LiveGold bg-forground py-2.5">
+
+
+ <section class="LiveGold bg-forground py-2.5">
                 <div class="container mx-auto px-5  md:px-10 ">
                     <ul class="  price  list-disc  row flex-wrap  text-xs gap-5   md: justify-center gap-8  text-s  ">
                         <li class="text-secondry text-xs ">24K: $2,342.50</li>
@@ -63,7 +87,7 @@
                         <li class=" text-neutral-400  text-xs">Last price update: 2 minutes ago</li>
                     </ul>
                 </div>
-
+</section>
     </header>
 
     <main>
@@ -72,7 +96,7 @@
  <section class="hero relative min-h-screen ">
  <img src="assets/img/goldset.webp" alt="" class="  object-cover w-full h-full  bg-[#0F1E3D] absolute inset-0 z-0  ">
     <div class="absolute  inset-0   bg-gradient-to-r from-[#0F1E3D]/60 to-[#0F1E3D]/0  z-[1]"></div>
-    <div class="discrip  relative z-10  pt-10   px-[48px]  md:pt-[40px] lg:pt-[100px]  ">
+    <div class="discrip  relative z-8  pt-10   px-[48px]  md:pt-[40px] lg:pt-[100px]  ">
 
                 <div class=" contentss flex flex-col gap-4       ">
 
@@ -89,7 +113,7 @@
 </div>
 
                      <div class=" m-[20px] md:mb-[30px]"> 
-                        <a href=""
+                          <a href="ShopJewelry.html"
    class="bg-secondry border border-secondry text-white text-[10px] md:text-[12px] px-4 md:px-[40px] py-2 md:py-[16px] tracking-[1px] md:tracking-[1.2px]">
    BROWSE JEWELRY
 </a>
@@ -102,9 +126,7 @@
  </section>
 
 
-
-        <section class="Categories p-9 ">
-
+ <section class="Categories p-9 ">
 
 
             <div class=" container  mx-auto px-9 p-3 ">
@@ -205,9 +227,10 @@
 <h2 class=" text-lg pt-2 lg:text-[48px] pt8">We Buy and Sell  <br>Gold & Jewelry</h2>
 <p class=" text-[8px] md:text-[16px]  text-Neutralm pt-5 ">We provide professional valuation services and the best live market rates for 
     buying and selling gold and precious jewelry with full transparency and security.</p>
-<button class="bg-primary text-[12px] text-white mt-[40px] py-[16px] px-[48px]"><a href=""> SEND REQUEST</a></button>
+<button class="bg-primary text-[12px] text-white mt-[40px] py-[16px] px-[48px]"><a href="SellGold.html"> SEND REQUEST</a></button>
 </div>
-
+</div>
+</div>
         </section>
 
 
@@ -234,16 +257,16 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[16px] leading-[28px] uppercase">$1,850</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="button">ADD TO CART</button>
 
     </div>
-    
+    </div>
 
 
 </div>
 
-</div>
-</div>
+
+
 
 
 <div class="ringdetel2">
@@ -259,7 +282,7 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[16px] leading-[28px] uppercase">$920</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="button">ADD TO CART</button>
 
     </div>
     
@@ -282,7 +305,7 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[16px] leading-[28px] uppercase">$2,100</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="button">ADD TO CART</button>
 
     </div>
     
@@ -340,7 +363,7 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[16px] leading-[28px] uppercase">$1,120</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
 
     </div>
     
@@ -364,7 +387,7 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[16px] leading-[28px] uppercase">$890</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
 
     </div>
     
@@ -387,7 +410,7 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[16px] leading-[28px] uppercase">$2,840</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
 
     </div>
     
@@ -410,7 +433,7 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[16px] leading-[28px] uppercase">$1,450</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
 
     </div>
     
@@ -447,7 +470,7 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[16px] leading-[28px] uppercase">$$5,400</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b  pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
 
     </div>
     
@@ -471,7 +494,7 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[16px] leading-[28px] uppercase">$2,150</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
 
     </div>
     
@@ -494,7 +517,7 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[16px] leading-[28px] uppercase">$3,200</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
 
     </div>
     
@@ -517,7 +540,7 @@
     </div>
     <div class=" row justify-between pt-[16px]">
  <span class="text-black  text-[18px] leading-[28px] uppercase">$4,850</span>
-       <button class="  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
+       <button class=" add-to-cart  text-[10px] uppercase text-secondry leading-[15px] tracking-[1px] border-b pb-1 " type="submit">ADD TO CART</button>
 
     </div>
     
@@ -640,6 +663,8 @@ STONES.</p>
 <div>
 
 </footer>
+
+<script src="main.js"></script>
 </body>
 
 </html>
